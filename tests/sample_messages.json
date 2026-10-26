@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "category": "OTP scam",
+    "message": "URGENT! Your bank account will be blocked. Share your OTP immediately.",
+    "expected_warning": "Sensitive information requests"
+  },
+  {
+    "id": 2,
+    "category": "Payment scam",
+    "message": "Pay a verification fee of Rs 500 immediately to receive your prize.",
+    "expected_warning": "Urgency or threats"
+  },
+  {
+    "id": 3,
+    "category": "Suspicious link",
+    "message": "Your account needs verification. Click this link: http://fake-example.test/verify",
+    "expected_warning": "Suspicious links"
+  },
+  {
+    "id": 4,
+    "category": "Pressure to stay silent",
+    "message": "Do not tell your family or bank. Keep this transaction secret.",
+    "expected_warning": "Pressure to stay silent"
+  },
+  {
+    "id": 5,
+    "category": "Ordinary message",
+    "message": "Hello, are we meeting at the library tomorrow at 10 AM?",
+    "expected_warning": "No obvious warning signs"
+  }
+]
